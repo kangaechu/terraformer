@@ -113,22 +113,29 @@ github.com/aws/aws-sdk-go/private/protocol/jsonrpc
 github.com/aws/aws-sdk-go/private/protocol/query
 github.com/aws/aws-sdk-go/private/protocol/query/queryutil
 github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/aws/aws-sdk-go/private/protocol/restjson
 github.com/aws/aws-sdk-go/private/protocol/restxml
 github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
 github.com/aws/aws-sdk-go/service/acm
 github.com/aws/aws-sdk-go/service/autoscaling
 github.com/aws/aws-sdk-go/service/cloudfront
+github.com/aws/aws-sdk-go/service/cloudtrail
 github.com/aws/aws-sdk-go/service/dynamodb
 github.com/aws/aws-sdk-go/service/ec2
+github.com/aws/aws-sdk-go/service/ecs
 github.com/aws/aws-sdk-go/service/elasticache
+github.com/aws/aws-sdk-go/service/elasticsearchservice
 github.com/aws/aws-sdk-go/service/elb
 github.com/aws/aws-sdk-go/service/elbv2
 github.com/aws/aws-sdk-go/service/firehose
 github.com/aws/aws-sdk-go/service/glue
 github.com/aws/aws-sdk-go/service/iam
+github.com/aws/aws-sdk-go/service/organizations
 github.com/aws/aws-sdk-go/service/rds
 github.com/aws/aws-sdk-go/service/route53
 github.com/aws/aws-sdk-go/service/s3
+github.com/aws/aws-sdk-go/service/sns
+github.com/aws/aws-sdk-go/service/sqs
 github.com/aws/aws-sdk-go/service/sts
 github.com/aws/aws-sdk-go/service/sts/stsiface
 # github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -603,7 +610,7 @@ github.com/zclconf/go-cty/cty/msgpack
 github.com/zclconf/go-cty/cty/set
 # github.com/zclconf/go-cty-yaml v1.0.1
 github.com/zclconf/go-cty-yaml
-# github.com/zorkian/go-datadog-api v2.21.1-0.20190802113207-d0ce49abc107+incompatible
+# github.com/zorkian/go-datadog-api v2.24.0+incompatible
 github.com/zorkian/go-datadog-api
 # go.opencensus.io v0.21.0
 go.opencensus.io
@@ -623,7 +630,7 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
+# golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/cast5
@@ -646,7 +653,7 @@ golang.org/x/crypto/ssh
 golang.org/x/crypto/ssh/agent
 golang.org/x/crypto/ssh/knownhosts
 golang.org/x/crypto/ssh/terminal
-# golang.org/x/net v0.0.0-20190502183928-7f726cade0ab
+# golang.org/x/net v0.0.0-20190923162816-aa69164e4478
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/html
@@ -667,7 +674,7 @@ golang.org/x/oauth2/jws
 golang.org/x/oauth2/jwt
 # golang.org/x/sync v0.0.0-20190423024810-112230192c58
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.0.0-20190804053845-51ab0e2deafa
+# golang.org/x/sys v0.0.0-20190924154521-2837fb4f24fe
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
 golang.org/x/sys/windows
